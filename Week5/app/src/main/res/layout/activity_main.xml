@@ -24,25 +24,26 @@
         android:indeterminate="false"
         android:max="15"
         android:layout_below="@id/imageView"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="20dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"/>
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/progresstext"
         android:layout_below="@id/seekbar"
-        android:layout_alignParentLeft="@+id/button1"
-        android:layout_alignParentStart="@+id/button1"
-        android:layout_alignParentRight="@+id/button1"
-        android:layout_alignParentEnd="@+id/button1"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_alignStart="@+id/button1"
+        android:layout_alignRight="@+id/button1"
+        android:layout_alignEnd="@+id/button1"
         android:textAlignment="center"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Start Slideshow"
+
         android:id="@+id/button1"
         android:layout_below="@id/progresstext"
         android:layout_centerHorizontal="true"/>
