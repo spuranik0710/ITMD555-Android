@@ -55,7 +55,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:id="@+id/reset"
+            android:id="@+id/resetButton"
             android:text="Reset"/>
     </LinearLayout>
     <Button
@@ -67,5 +67,15 @@
         android:gravity="center"
         android:layout_below="@id/linear"
        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timeTextView"
+        android:textStyle="bold"
+        android:layout_below="@id/stopServiceButton"
+        android:text="0:0:0:00"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_light"/>
 
 </RelativeLayout>
